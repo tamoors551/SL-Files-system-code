@@ -1,0 +1,37 @@
+JSON_PRETTY_PRINT is a PHP function that is used to format and indent JSON data in a more readable and visually appealing way. 
+
+This function takes a JSON-encoded string as input and returns a formatted version of the data.
+
+Here's an example of how to use JSON_PRETTY_PRINT in PHP:
+
+$json_data = '{"name":"John Doe","age":30,"email":"johndoe@example.com"}';
+
+
+$pretty_json = json_encode($json_data, JSON_PRETTY_PRINT);
+
+echo $pretty_json;
+
+The output of the above code will be:
+
+{
+    "name": "John Doe",
+    "age": 30,
+    "email": "johndoe@example.com"
+}
+
+* As you can see, the JSON data is now formatted with proper indentation and spacing, making it much easier to read and understand.
+
+Here are some additional resources that provide more information about the JSON_PRETTY_PRINT function:
+
+PHP Manual: json_encode() - This page in the PHP manual provides detailed information about the json_encode() function, including the JSON_PRETTY_PRINT option.
+
+W3Schools: PHP JSON Functions - This page on W3Schools provides an overview of various JSON-related functions in PHP, including JSON_PRETTY_PRINT.
+
+SitePoint: Formatting JSON in PHP with json_encode() - This article on SitePoint provides a more detailed explanation of how to use JSON_PRETTY_PRINT in your PHP code.
+
+Stackoverflow: How to pretty print JSON with PHP - This Stackoverflow question and its answers provide additional examples and insights on using JSON_PRETTY_PRINT.
+
+I hope this information helps you understand and use the JSON_PRETTY_PRINT
+In the written form of many languages, indentation describes empty space, a.k.a. white space, used around text to signify an important aspect of the text such as: Beginning of a paragraph Hierarchy – subordinate concept Quotation Many computer languages use block indentation to demarcate blocks of source code. Wikipedia
+
+
